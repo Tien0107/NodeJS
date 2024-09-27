@@ -84,3 +84,10 @@ async function xyz() {
 xyz().then((data) =>{
   console.log(data);
 });
+
+Promise.adl([getUserID(),  getPostUser(), getCommentPostUser()].then((data) => {
+  console.log(data);
+
+}) );
+
+
